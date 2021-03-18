@@ -23,7 +23,7 @@ type LoginResponse struct {
 	Token string `json:"token"`
 }
 
-// Signup creates a user in db
+// Signup creates a user in database
 func Signup(c *gin.Context) {
 	var user models.User
 
